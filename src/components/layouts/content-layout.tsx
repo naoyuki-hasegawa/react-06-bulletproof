@@ -7,7 +7,7 @@ type ContentLayoutProps = {
     title: string;
 };
 
-export const ContentLayout = ({ children, title }* ContentLayoutProps) => {
+export const ContentLayout = ({ children, title }: ContentLayoutProps) => {
     return (
         <>
             <Head title={title} />
